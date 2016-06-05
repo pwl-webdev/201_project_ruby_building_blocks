@@ -17,7 +17,7 @@ def caesar_cipher(input, shift)
 			ascii.push(iter.chr)
 		end
 	end
-	puts ascii.join
+	return ascii.join
 end
 
-caesar_cipher("What a string!", 5)
+# caesar_cipher("What a string!", 5)
